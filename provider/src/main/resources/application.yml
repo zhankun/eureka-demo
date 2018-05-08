@@ -1,0 +1,13 @@
+server:
+  port: 8763
+  servlet:
+    context-path: /provider
+
+spring:
+  application:
+    name: provider
+
+eureka:
+  client:
+    erviceUrl:
+     defaultZone: http://http://localhost:8761/eureka
