@@ -21,7 +21,7 @@ public class ProviderApplication {
     private String port;
 
     @RequestMapping(value = "hi")
-    public String testProvider(@RequestParam String name) {
+    public String testProvider(@RequestParam(value = "name") String name) {
         return "hi " + name + ",i am from port:" + port;
     }
 }

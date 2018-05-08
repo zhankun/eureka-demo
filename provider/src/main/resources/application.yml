@@ -3,6 +3,7 @@ server:
   servlet:
     context-path: /provider
 
+#provider服务注册到eureka中的服务名称
 spring:
   application:
     name: provider
